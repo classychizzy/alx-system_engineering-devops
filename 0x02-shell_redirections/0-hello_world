@@ -1,2 +1,4 @@
 #!/bin/bash
-cat "Hello, World", /n > ./0-hello_world
+cat "Hello, World", > ./0-hello_world
+
+
