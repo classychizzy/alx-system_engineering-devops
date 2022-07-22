@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
 #a program that displays the list of all current processes
+#shows hierarchy and is in a user-oriented format
 ps -faux
