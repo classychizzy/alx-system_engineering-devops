@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+# a script that uses ssh connect to a server using a private key
+
+ssh ubuntu
+ssh ubuntu@34.204.193.225
