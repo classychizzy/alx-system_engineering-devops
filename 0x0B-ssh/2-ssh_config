@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# a script that disables password authentication in ssh config
+
+IdentityFile ~/.ssh/school
+PasswordAuthentication no
+PubkeyAuthentication yes
