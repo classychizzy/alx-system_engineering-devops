@@ -18,9 +18,9 @@ if __name__ == "__main__":
     todos = requests.get('https://jsonplaceholder.typicode.com/todos')
 
     todoUser = {}
-    taskList = {}
+    taskList = []
 
-    for task in todos:
+    for task in todos.json():
         if task.get('userId') == int(userId):
             taskDict = {
                     "task": task.get('title'),
