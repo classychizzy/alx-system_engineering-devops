@@ -1,7 +1,7 @@
 # **Misspelt Endpoint incidence report**
 -----------------------------------------
 
-![<img src="/postmortem.jpg" width="200"/>](https://user-images.githubusercontent.com/45069751/200926552-be6d29f7-cc29-452c-a227-83caff169373.jpg)
+![<img src="/postmortem.jpg" width="150"/>](https://user-images.githubusercontent.com/45069751/200926552-be6d29f7-cc29-452c-a227-83caff169373.jpg)
 ## **Issue Summary**
 --------------------
 On Thursday 3rd of November, from 12:00 am to Friday  6:00 am, some of our users experienced an outage when trying to access a particular page on our website. The root cause was a misspelt endpoint in the API.
